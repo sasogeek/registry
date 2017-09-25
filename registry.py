@@ -11,7 +11,7 @@ def take_details():
     return username, contact, status
 
 
-# search by name though email list and return email
+# search by name through email list and return email
 def get_email(search_term, l):
     for u in l:
         if search_term == u['name']:
